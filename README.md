@@ -7,4 +7,4 @@ How to run the Program:
   5. Once Visual Studio opens up, run the code.
 
 Additional Information:
-  Project description can be found in the file: "Project - Book Pile.docx"
+ * Project description can be found in the file: "Project - Book Pile.docx"
