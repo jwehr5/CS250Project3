@@ -1,0 +1,87 @@
+bookCount() returns: 0 [should be 0]
+
+addBook("Dune") returns: 1 [should be 1]
+addBook("Dragonflight") returns: 1 [should be 1]
+addBook("Neuromancer") returns: 1 [should be 1]
+addBook("Contact") returns: 1 [should be 1]
+addBook("Brave New World") returns: 1 [should be 1]
+addBook("Cinder") returns: 1 [should be 1]
+addBook("Rust") returns: 1 [should be 1]
+addBook("Random1ze") returns: 1 [should be 1]
+addBook("Sea of Rust") returns: 1 [should be 1]
+addBook("All Systems Red") returns: 1 [should be 1]
+
+bookCount() returns: 10 [should be 10]
+
+BOOK PILE CONTAINS:
+1. All Systems Red (15)
+2. Brave New World (15)
+3. Dragonflight (12)
+4. Neuromancer (11)
+5. Sea of Rust (11)
+6. Random1ze (9)
+7. Contact (7)
+8. Cinder (6)
+9. Dune (4)
+10. Rust (4)
+
+Making a copy with the copy constructor...
+
+addBook("") returns: 0 [should be 0]
+
+findBook("Contact") returns: 7 [should be 7]
+
+findBook("Neverwhere") returns: -1 [should be -1]
+
+getBook(-1) returns:  [should be empty string]
+
+getBook(25) returns:  [should be empty string]
+
+getBook(6) returns: Random1ze [should be Random1ze]
+
+removeBook(-1) returns: 0 [should be 0]
+
+removeBook(25) returns: 0 [should be 0]
+
+removeBook(1) returns: 1 [should be 1]
+
+removeBook("Last Days") returns: 0 [should be 0]
+
+removeBook("Cinder") returns: 1 [should be 1]
+
+renameBook("Fred", "Jimmy") returns: 0 [should be 0]
+
+renameBook("Rust", "Crust") returns: 1 [should be 1]
+
+bookCount() returns: 8 [should be 8]
+
+BOOK PILE CONTAINS:
+1. Brave New World (15)
+2. Dragonflight (12)
+3. Neuromancer (11)
+4. Sea of Rust (11)
+5. Random1ze (9)
+6. Contact (7)
+7. Crust (5)
+8. Dune (4)
+
+Running clear()...
+
+bookCount() returns: 0 [should be 0]
+
+Book pile contains:
+Book pile is empty.
+
+bookCount() on the copy returns: 10 [should be 10]
+
+COPIED BOOK PILE CONTAINS:
+1. Brave New World (15)
+2. All Systems Red (15)
+3. Dragonflight (12)
+4. Neuromancer (11)
+5. Sea of Rust (11)
+6. Random1ze (9)
+7. Contact (7)
+8. Cinder (6)
+9. Dune (4)
+10. Rust (4)
